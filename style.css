@@ -40,6 +40,13 @@ nav {
   color: var(--accent);
 }
 
+.text-link{
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  font-weight: bold;
+}
+
 
 .nav-links {
   list-style: none;
