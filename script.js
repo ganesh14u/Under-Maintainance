@@ -11,7 +11,7 @@
     const email = e.target.email.value;
 
     try {
-      const response = await fetch("https://script.google.com/macros/s/AKfycbzzZ1f9hKXgJL0E-05Vau9l9vPbNccnG4BXiQrUHNE6w2luFDr4QEU5UBGhUAp3OsxK/exec", {
+      const response = await fetch("https://script.google.com/macros/s/AKfycbzILTpDZNvwYRoXSt-Q_9w8yjKmV4pKnw2C2HcnGGfwdn0SdPn4u3nef8pSHrjSCLtk/exec", {
         method: "POST",
         headers: {
           "Content-Type": "application/x-www-form-urlencoded",
@@ -34,7 +34,7 @@
       e.target.reset();
     } catch (error) {
       console.error("Error:", error);
-      alert("Something went wrong. Try again..");
+      alert("Something went wrong. Try again.");
     }
   });
 
