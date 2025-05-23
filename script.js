@@ -18,6 +18,6 @@
       body: "email=" + encodeURIComponent(email),
     });
 
-    alert("Thank you! Your email has been saved.");
+    alert("Thank you! Your email has been saved.😻");
     e.target.reset();
   });
