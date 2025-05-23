@@ -34,7 +34,7 @@
       e.target.reset();
     } catch (error) {
       console.error("Error:", error);
-      alert("Something went wrong. Try again.");
+      alert("Something went wrong. Try again..");
     }
   });
 
